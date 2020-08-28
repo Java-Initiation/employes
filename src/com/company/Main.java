@@ -10,7 +10,7 @@ public class Main {
 
         Manutentionnaire manutentionnaire = new Manutentionnaire("toto", "titi", 40, 50);
         Technicien technicien = new Technicien("ytrt", "dffd", 40, 500);
-        Commercial commercial = new Representant("fjfdl", "dksml", 22, 60000);
+        Representant representant = new Representant("fjfdl", "dksml", 22, 60000);
 
         personnel.ajouterEmploye(manutentionnaire);
         personnel.ajouterEmploye(technicien);
