@@ -14,7 +14,7 @@ public class Main {
 
         personnel.ajouterEmploye(manutentionnaire);
         personnel.ajouterEmploye(technicien);
-        personnel.ajouterEmploye(commercial);
+        personnel.ajouterEmploye(representant);
 
         personnel.afficherSalaires();
 
